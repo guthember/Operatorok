@@ -30,7 +30,7 @@ Jozsiegykecske- Balázs
 - WritleLine segítségével kiirjuk a sorokat (sz.Key)-el illetve (sz.Value)-val.
 Merk - Markó
 ## Hatodik feladat
--Létrehoztunk egy string tömböt, amibe megadtuk a műveleti jeleket
+- Létrehoztunk egy string tömböt, amibe megadtuk a műveleti jeleket
 - Végigmegy a szamolasok listán 
 - Ismeretlen operátor esetén kiírja a "Hibás operátor!" kifejezést
 - Ha helyes az operátor, de nem lehet az értékét meghatározni írja ki az "Egyéb hiba!" kifejezést 
