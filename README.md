@@ -1,6 +1,8 @@
 # Operatorok
 ## Első feladat
-
+guthember
+  - Osztály létrehozása
+  - Beolvasás, lista feltöltésével
 ## Második feladat
 Norkfor - Kozák Levente
 ## Harmadik feladat
