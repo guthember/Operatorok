@@ -8,18 +8,25 @@ namespace Operatorok
   partial class Program
   {
     static public void OtodikFeladat()
-    {
-      Dictionary<string, int> szamolas = new Dictionary<string, int>()
+    {      Dictionary<string, int> dic = new Dictionary<string, int>()
       {
-        {"mod", 349 },
-        {"/", 336 },
-        {"div", 340 },
-        {"-", 318 },
-        {"*", 297 },
-        {"+", 320 }
+        {"mod", 0 },
+        {"/", 0 },
+        {"div", 0 },
+        {"-", 0 },
+        {"*", 0 },
+        {"+", 0 }
       };
+      foreach (var ss in szamolasok)
+      {
+        if (dic.ContainsKey(ss.Muvelet))
+        {
+          string valami = ss.Muvelet;
+          dic[valami]++;
+        }
+      }
       Console.WriteLine("5. feladat: Statisztika");
-      foreach (var sz in szamolas)
+      foreach (var sz in dic)
       {
         Console.WriteLine($"{sz.Key.PadLeft(10)} -> {sz.Value} db");
       }

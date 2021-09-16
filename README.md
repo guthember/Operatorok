@@ -23,12 +23,9 @@ Jozsiegykecske- Balázs
   - Ha igaz akkor kilép 
 -Kiiratás a logikai változó ellenőrzésével(Ha igaz akkor van olyan kifejezés, ha hamis akkor nincs)
 ## Ötödik feladat
-## Ötödik feladat
 - Szükséges usingok bemásolása a kód elejére.
-- Dictionary elkészítése ( 1 string és 1 int) majd feltöltése a megadott szövegekkel, karakterekkel és számokkal.
-- WriteLine-al kiiratjuk a feladat számát és a "statisztika" szöveget
-- foreach ciklusban sz-ként hivatkozunk a számolás Dictionary-ra
-- WritleLine segítségével kiirjuk a sorokat (sz.Key)-el illetve (sz.Value)-val.
+- Dictionary elkészítése ( 1 string és 1 int) majd feltöltése a megadott szövegekkel, karakterekkel és 0-ákkal.
+-Egy foreach ciklussal végmegyünk a listán egy elágazássel eldöntjük, hogy a beolvasott elemet tartalmazza e a dic. ha tartalmazza, akkor növeljük a "valamit".
 Merk - Markó
 ## Hatodik feladat
 - Létrehoztunk egy string tömböt, amibe megadtuk a műveleti jeleket
@@ -37,7 +34,13 @@ Merk - Markó
 - Ha helyes az operátor, de nem lehet az értékét meghatározni írja ki az "Egyéb hiba!" kifejezést 
 kissbarnabas57 - Barnabás
 ## Hetedik feladat
-Boros Dániel
+Boros Dániel + Kozák Levente
+- Bekéri a két számot és a műveletet
+  - Feldarabolja és elteszi a tömb megfelelő helyére
+- Ha megfelelő műveletet | +, -, /, * | írt be az illető, akkor elvégzi a műveletet
+  - Ha hibás karaktert ad meg, akkor "Hibás operátor" üzenetet ír ki, és visszadob a bekéréshez
+  - Ha több karaktert ad meg műveletként, akkor "Egyéb hiba" üzenetet ír ki, és visszadob a bekéréshez
+  - Ha a "vége" szöveget írja be elsőként, akkor továbblép a program.
 ## Nyolcadik feladat
 guthember
 ### Szamolas osztaly bővítése
