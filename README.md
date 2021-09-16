@@ -2,9 +2,9 @@
 ## Első feladat
 
 ## Második feladat
-Norkfor - Kozák Levente
-## Harmadik feladat
 
+## Harmadik feladat
+Neomonolith - Erik
 ## Negyedik feladat
 
 ## Ötödik feladat
@@ -12,5 +12,5 @@ Norkfor - Kozák Levente
 ## Hatodik feladat
 
 ## Hetedik feladat
-Boros Dániel
+
 ## Nyolcadik feladat
