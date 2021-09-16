@@ -10,6 +10,11 @@ Neomonolith - Erik
 ## Negyedik feladat
 Jozsiegykecske- Balázs
 ## Ötödik feladat
+- Szükséges usingok bemásolása a kód elejére.
+- Dictionary elkészítése ( 1 string és 1 int) majd feltöltése a megadott szövegekkel, karakterekkel és számokkal.
+- WriteLine-al kiiratjuk a feladat számát és a "statisztika" szöveget
+- foreach ciklusban sz-ként hivatkozunk a számolás Dictionary-ra
+- WritleLine segítségével kiirjuk a sorokat (sz.Key)-el illetve (sz.Value)-val.
 Merk - Markó
 ## Hatodik feladat
 kissbarnabas57 - Barnabás
