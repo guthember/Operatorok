@@ -6,10 +6,22 @@ using System.Threading.Tasks;
 
 namespace Operatorok
 {
-  class Program
+  partial class Program
   {
+    static List<Szamolas> szamolasok = new List<Szamolas>();
     static void Main(string[] args)
     {
+      ElsoFeladat();
+      MasodikFeladat();
+      HarmadikFeladat();
+      NegyedikFeladat();
+      OtodikFeladat();
+      HatodikFeladat();
+      HetedikFeladat();
+      NyolcadikFeladat();
+
+      Console.Write("\nProgram vége...");
+      Console.ReadKey();
     }
   }
 }

@@ -43,8 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Elso.cs" />
+    <Compile Include="Harmadik.cs" />
+    <Compile Include="Hatodik.cs" />
+    <Compile Include="Hetedik.cs" />
+    <Compile Include="Masodik.cs" />
+    <Compile Include="Negyedik.cs" />
+    <Compile Include="Nyolcadik.cs" />
+    <Compile Include="Otodik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Szamolas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
