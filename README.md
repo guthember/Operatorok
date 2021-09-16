@@ -13,6 +13,15 @@ Norkfor - Kozák Levente
 5. szamolo Kiiratása 
 ## Negyedik feladat
 Jozsiegykecske- Balázs
+- Logikai változó létrehozása aminek értéke hamis
+- Egy ciklus végigvezetése a listán
+- A 2 változó elosztása 10-el
+  - Ha az eredmény 0 akkor a logikai változót igazra állítjuk
+- Logikai változó ellenőrzése:
+  - Ha hamis akkor fut tovább a ciklus
+  - Ha igaz akkor kilép 
+-Kiiratás a logikai változó ellenőrzésével(Ha igaz akkor van olyan kifejezés, ha hamis akkor nincs)
+## Ötödik feladat
 ## Ötödik feladat
 - Szükséges usingok bemásolása a kód elejére.
 - Dictionary elkészítése ( 1 string és 1 int) majd feltöltése a megadott szövegekkel, karakterekkel és számokkal.
