@@ -10,7 +10,7 @@ Jozsiegykecske- Balázs
 ## Ötödik feladat
 Merk - Markó
 ## Hatodik feladat
-
+kissbarnabas57 - Barnabás
 ## Hetedik feladat
 Boros Dániel
 ## Nyolcadik feladat
