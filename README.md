@@ -6,7 +6,7 @@ Norkfor - Kozák Levente
 ## Harmadik feladat
 Neomonolith - Erik
 ## Negyedik feladat
-
+Jozsiegykecske- Balázs
 ## Ötödik feladat
 Merk - Markó
 ## Hatodik feladat
