@@ -41,9 +41,16 @@ namespace Operatorok
                 }
                 else if (muveletek == "/")
                 {
-                    eredmeny = double.Parse(elso) / double.Parse(masodik);
-                    Console.WriteLine($"\t{elso} {muveletek} {masodik} = {eredmeny}");
-                    ujra = true;
+                    if (int.Parse(darabol[2]) == 0)
+                    {
+                        Console.WriteLine("\tNem elvégezhető a művelet!");
+                    }
+                    else
+                    {
+                        eredmeny = double.Parse(elso) / double.Parse(masodik);
+                        Console.WriteLine($"\t{elso} {muveletek} {masodik} = {eredmeny}");
+                        ujra = true;
+                    }
                 }
                 else if (muveletek == "*")
                 {
