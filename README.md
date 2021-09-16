@@ -23,12 +23,9 @@ Jozsiegykecske- Balázs
   - Ha igaz akkor kilép 
 -Kiiratás a logikai változó ellenőrzésével(Ha igaz akkor van olyan kifejezés, ha hamis akkor nincs)
 ## Ötödik feladat
-## Ötödik feladat
 - Szükséges usingok bemásolása a kód elejére.
-- Dictionary elkészítése ( 1 string és 1 int) majd feltöltése a megadott szövegekkel, karakterekkel és számokkal.
-- WriteLine-al kiiratjuk a feladat számát és a "statisztika" szöveget
-- foreach ciklusban sz-ként hivatkozunk a számolás Dictionary-ra
-- WritleLine segítségével kiirjuk a sorokat (sz.Key)-el illetve (sz.Value)-val.
+- Dictionary elkészítése ( 1 string és 1 int) majd feltöltése a megadott szövegekkel, karakterekkel és 0-ákkal.
+-Egy foreach ciklussal végmegyünk a listán egy elágazássel eldöntjük, hogy a beolvasott elemet tartalmazza e a dic. ha tartalmazza, akkor növeljük a "valamit".
 Merk - Markó
 ## Hatodik feladat
 - Létrehoztunk egy string tömböt, amibe megadtuk a műveleti jeleket
