@@ -37,7 +37,13 @@ Merk - Markó
 - Ha helyes az operátor, de nem lehet az értékét meghatározni írja ki az "Egyéb hiba!" kifejezést 
 kissbarnabas57 - Barnabás
 ## Hetedik feladat
-Boros Dániel
+Boros Dániel + Kozák Levente
+- Bekéri a két számot és a műveletet
+  - Feldarabolja és elteszi a tömb megfelelő helyére
+- Ha megfelelő műveletet | +, -, /, * | írt be az illető, akkor elvégzi a műveletet
+  - Ha hibás karaktert ad meg, akkor "Hibás operátor" üzenetet ír ki, és visszadob a bekéréshez
+  - Ha több karaktert ad meg műveletként, akkor "Egyéb hiba" üzenetet ír ki, és visszadob a bekéréshez
+  - Ha a "vége" szöveget írja be elsőként, akkor továbblép a program.
 ## Nyolcadik feladat
 guthember
 ### Szamolas osztaly bővítése
