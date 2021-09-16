@@ -8,6 +8,7 @@ namespace Operatorok
 {
   class Szamolas
   {
+    //-------- ezen ne változtass ettől --------------
     private int op1;
 
     public int Op1
@@ -38,5 +39,7 @@ namespace Operatorok
       this.op2 = op2;
       this.muvelet = muvelet;
     }
+    //-------- ezen ne változtass eddig--------------
+    
   }
 }
