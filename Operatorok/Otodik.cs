@@ -21,8 +21,9 @@ namespace Operatorok
       {
         if (dic.ContainsKey(ss.Muvelet))
         {
-          string valami = ss.Muvelet;
-          dic[valami]++;
+          //string valami = ss.Muvelet;
+          //dic[valami]++;
+          dic[ss.Muvelet]++;
         }
       }
       Console.WriteLine("5. feladat: Statisztika");
@@ -30,7 +31,6 @@ namespace Operatorok
       {
         Console.WriteLine($"{sz.Key.PadLeft(10)} -> {sz.Value} db");
       }
-      Console.ReadLine();
     }
    }
  }

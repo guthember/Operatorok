@@ -41,6 +41,38 @@ namespace Operatorok
     }
     //-------- ezen ne változtass eddig--------------
 
+    // 6. feladat megoldása talán
+    // túlcsordulás vizsgálata pénteken!!!
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
+    public string Eredmeny()
+    {
+      string muvjelek = "+-*/moddiv";
+      string osztas = "/moddiv";
+
+      string kiirni = Kiir();
+      if (muvjelek.Contains(Muvelet))
+      {
+        if (osztas.Contains(Muvelet) && Op2 == 0)
+        {
+          kiirni += "Egyéb hiba!";
+        }
+        else
+        {
+          kiirni += Szamol();
+        }
+      }
+      else
+      {
+        kiirni += "Hibás operátor!";
+      }
+
+      return kiirni;
+    }
+
+
     public string Kiir()
     {
       return $"{op1} {muvelet} {op2} = ";
