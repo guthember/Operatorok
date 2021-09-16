@@ -12,5 +12,5 @@ Neomonolith - Erik
 ## Hatodik feladat
 
 ## Hetedik feladat
-
+Boros Dániel
 ## Nyolcadik feladat
