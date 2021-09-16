@@ -5,6 +5,7 @@ guthember
   - Beolvasás, lista feltöltésével
 ## Második feladat
 Norkfor - Kozák Levente
+- A listából Count metódussal megszámolja a kifejezéseket, majd kiírja azt.
 ## Harmadik feladat
 1. szamolo int, string sor, nevezetű változók létrehozása.
 2. txt Fájl beolvasása
