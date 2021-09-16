@@ -9,7 +9,7 @@ Norkfor - Kozák Levente
 1. szamolo int, string sor, nevezetű változók létrehozása.
 2. txt Fájl beolvasása
 3. string sor paramétere feltöltése a txt fájl adataival a fájl végéig.
-4 .  if metódus készítése, ha igaz a paraméter(talál e 'mod' szót a sorban ) akkor szamolo++
+4.  if metódus készítése, ha igaz a paraméter(talál e 'mod' szót a sorban ) akkor szamolo++
 5. szamolo Kiiratása 
 ## Negyedik feladat
 Jozsiegykecske- Balázs
