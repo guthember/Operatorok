@@ -12,5 +12,5 @@ Norkfor - Kozák Levente
 ## Hatodik feladat
 
 ## Hetedik feladat
-
+Boros Dániel
 ## Nyolcadik feladat
