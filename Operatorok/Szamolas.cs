@@ -81,26 +81,36 @@ namespace Operatorok
     public string Szamol()
     {
       string vissza = "";
-      switch (muvelet)
+      checked
       {
-        case "+":
-          vissza =  (op1 + op2).ToString();
-          break;
-        case "-":
-          vissza = (op1 - op2).ToString();
-          break;
-        case "*":
-          vissza = (op1 * op2).ToString();
-          break;
-        case "/":
-          vissza = (op1 / (double)op2).ToString();
-          break;
-        case "div":
-          vissza = (op1 / op2).ToString();
-          break;
-        case "mod":
-          vissza = (op1 - op2 * (op1 / op2)).ToString();
-          break;
+        try
+        {
+          switch (muvelet)
+          {
+            case "+":
+              vissza = (op1 + op2).ToString();
+              break;
+            case "-":
+              vissza = (op1 - op2).ToString();
+              break;
+            case "*":
+              vissza = (op1 * op2).ToString();
+              break;
+            case "/":
+              vissza = (op1 / (double)op2).ToString();
+              break;
+            case "div":
+              vissza = (op1 / op2).ToString();
+              break;
+            case "mod":
+              vissza = (op1 - op2 * (op1 / op2)).ToString();
+              break;
+          }
+        }
+        catch (OverflowException ex)
+        {
+          vissza = "Túlcsordult!";
+        }
       }
 
       return vissza;
