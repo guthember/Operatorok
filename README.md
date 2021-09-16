@@ -40,6 +40,7 @@ Boros Dániel + Kozák Levente
 - Ha megfelelő műveletet | +, -, /, * | írt be az illető, akkor elvégzi a műveletet
   - Ha hibás karaktert ad meg, akkor "Hibás operátor" üzenetet ír ki, és visszadob a bekéréshez
   - Ha több karaktert ad meg műveletként, akkor "Egyéb hiba" üzenetet ír ki, és visszadob a bekéréshez
+  - Ha nullával akar osztani az illető, akkor "Nem elvégezhető a művelet" hibaüzenetet ír ki
   - Ha a "vége" szöveget írja be elsőként, akkor továbblép a program.
 ## Nyolcadik feladat
 guthember
